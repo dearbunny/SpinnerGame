@@ -21,29 +21,29 @@ class wheelImageView: UIImageView {
         let degree = value * 180 / Double.pi //將弧度轉成角度
         switch degree{ //依照不同角度判斷轉到區塊
             case 0..<30:
-            result="1"
-            case 30..<60:
-            result="2"
-            case 60..<90:
-            result="3"
-            case 90..<120:
-            result="4"
-            case 120..<150:
-            result="5"
-            case 150..<180:
-            result="6"
-            case 180..<210:
-            result="7"
-            case 210..<240:
-            result="8"
-            case 240..<270:
-            result="9"
-            case 270..<300:
-            result="10"
-            case 300..<330:
-            result="11"
-            case 333..<360:
             result="12"
+            case 30..<60:
+            result="11"
+            case 60..<90:
+            result="10"
+            case 90..<120:
+            result="9"
+            case 120..<150:
+            result="8"
+            case 150..<180:
+            result="7"
+            case 180..<210:
+            result="6"
+            case 210..<240:
+            result="5"
+            case 240..<270:
+            result="4"
+            case 270..<300:
+            result="3"
+            case 300..<330:
+            result="2"
+            case 333..<360:
+            result="1"
             default:
             result="...未知"
         }
