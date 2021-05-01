@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startButton(_ sender: Any) {
+        messageLabel.text = "text"
         wheelImageView.rotateGradually { resule in
             let alertContoller = UIAlertController(title: "你轉到了\(resule)區塊", message: nil, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "確認", style: .cancel, handler: nil)

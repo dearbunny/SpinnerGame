@@ -45,12 +45,12 @@ class wheelImageView: UIImageView {
             case 333..<360:
             result="1"
             default:
-            result="...未知"
+            result="...未知的區域"
         }
         rotateAnimation.toValue = currentValue
         rotateAnimation.isRemovedOnCompletion = false //動畫結束後仍保在結束狀態,讓轉盤不會在動畫結束時回到最初狀態。便繼再次轉動。
         rotateAnimation.fillMode = .forwards
-        rotateAnimation.duration = 5 //動畫持續時間
+        rotateAnimation.duration = 4 //動畫持續時間
         rotateAnimation.repeatCount = 1 // 重複幾次
         CATransaction.setCompletionBlock { //跑完動後要做的事
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3){//動畫結束後暫停0.3秒
