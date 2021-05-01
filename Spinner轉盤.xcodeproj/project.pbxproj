@@ -13,6 +13,7 @@
 		18665040263D8B0F0023D1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866503E263D8B0F0023D1BE /* Main.storyboard */; };
 		18665042263D8B110023D1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18665041263D8B110023D1BE /* Assets.xcassets */; };
 		18665045263D8B110023D1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18665043263D8B110023D1BE /* LaunchScreen.storyboard */; };
+		18C0295C263DA61300D25B54 /* wheelImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0295B263DA61300D25B54 /* wheelImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18665041263D8B110023D1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18665044263D8B110023D1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18665046263D8B110023D1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C0295B263DA61300D25B54 /* wheelImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheelImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1866503A263D8B0F0023D1BE /* SceneDelegate.swift */,
 				1866503C263D8B0F0023D1BE /* ViewController.swift */,
 				1866503E263D8B0F0023D1BE /* Main.storyboard */,
+				18C0295B263DA61300D25B54 /* wheelImageView.swift */,
 				18665041263D8B110023D1BE /* Assets.xcassets */,
 				18665043263D8B110023D1BE /* LaunchScreen.storyboard */,
 				18665046263D8B110023D1BE /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				1866503D263D8B0F0023D1BE /* ViewController.swift in Sources */,
 				18665039263D8B0F0023D1BE /* AppDelegate.swift in Sources */,
+				18C0295C263DA61300D25B54 /* wheelImageView.swift in Sources */,
 				1866503B263D8B0F0023D1BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
